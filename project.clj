@@ -1,4 +1,4 @@
-(defproject lein-scrooge "0.1.3-SNAPSHOT"
+(defproject lein-scrooge "0.1.3"
   :description "Leiningen plugin to run Twitter Scrooge compiler on Thrift IDL files"
   :url "http://github.com/jcrean/lein-scrooge"
   :license {:name "Eclipse Public License"
