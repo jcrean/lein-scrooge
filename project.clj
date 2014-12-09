@@ -4,6 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :repositories [["twitter" {:url "http://maven.twttr.com/"}]]
+  :signing {:gpg-key "D79DCD24"}
   :dev-dependencies [[swank-clojure "1.4.2"]]
   :dependencies [[com.twitter/finagle-core_2.10 "6.22.0"]
                  [com.twitter/finagle-thrift_2.10 "6.22.0"

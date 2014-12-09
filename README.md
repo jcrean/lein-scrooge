@@ -8,16 +8,16 @@ Use this for user-level plugins:
 
 ##### Leiningen 2.x
 
-Put `[lein-scrooge "0.1.1"]` into the `:plugins` vector of your
+Put `[lein-scrooge "0.1.3"]` into the `:plugins` vector of your
 `:user` profile
 
 ##### Leiningen 1.x 
 
-`lein plugin install lein-scrooge 0.1.1`.
+`lein plugin install lein-scrooge 0.1.3`.
 
 Use this for project-level plugins:
 
-Put `[lein-scrooge "0.1.1"]` into the `:plugins` vector of your project.clj.
+Put `[lein-scrooge "0.1.3"]` into the `:plugins` vector of your project.clj.
 
 ## Usage
 
@@ -40,7 +40,7 @@ The following settings are supported:
     (defproject ...
 
      ;; scrooge compiler supports Java and Scala. (Haven't tested with Scala yet. User beware)
-     :language "Java"
+     :language "java"
      
      ;; generates Finagle classes (see https://github.com/twitter/finagle)
      :finagle true
